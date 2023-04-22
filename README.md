@@ -7,7 +7,7 @@
 <p>The app will take earnings or savings as input and based on  monthly income or savings there will be a feature that allows users to set budgets for different categories, such as food, transportation, and entertainment. The app could provide suggestions based on the user's spending history, and allow them to set goals for saving money and Send reminders to users about upcoming bills, account balances, or any other important financial information.</p>
 
  <h2>project Idea and Proposal</h2>
- <a href="https://docs.google.com/document/d/1SHr84sZDCYX8ukC5oxG8gsNXM0fObPc1V4KU9qZtBS0/edit?usp=sharing">Project Proposal</a>
+ <a href="https://docs.google.com/document/d/1SHr84sZDCYX8ukC5oxG8gsNXM0fObPc1V4KU9qZtBS0/edit?usp=sharing">Project Idea & Proposal</a>
 <h2>Scurm Sprints:</h2>
 <ul>
   <li><strong>Sprint 1 (4/15-4/21):</strong></li>
