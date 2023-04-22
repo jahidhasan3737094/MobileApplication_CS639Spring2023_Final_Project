@@ -1,6 +1,6 @@
 # MobileApplication_CS639Spring2023_Final_Project
-The topic is: Pace Undergraduate Students Financial Literacy.
-
+# The topic is: Pace Undergraduate Students Financial Literacy.
+<h1 align="center">Team Team11</h1>
 Apps Name: ExpensePlanner
 
 Description:
