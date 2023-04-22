@@ -9,7 +9,7 @@ The app will take earnings or savings as input and based on  monthly income or s
 # Scurm Sprints:
 
 # Sprint 1 (4/15-4/21):
-•	Research and gather information on the topic of undergraduate students' financial literacy
+•	Research and gather information on the topic of undergraduate students' financial literacy 
 •	Define the problem/s the app will solve and identify the target users
 •	Develop a vision statement and major features of the app
 •	Create a product backlog based on the app's features and user stories
