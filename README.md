@@ -2,7 +2,9 @@
 # The topic is: Pace Undergraduate Students Financial Literacy.
 <h1 align="left">Team11</h1>
 <h2 align="center">Apps Name: ExpensePlanner<h2>
-
+<p>
+<img src="logomakr.com/app/0fLLC2" alt="git" width="40" height="40"/> 
+</p>
 <h2>Description:</h2>
 <p>The app will take earnings or savings as input and based on  monthly income or savings there will be a feature that allows users to set budgets for different categories, such as food, transportation, and entertainment. The app could provide suggestions based on the user's spending history, and allow them to set goals for saving money and Send reminders to users about upcoming bills, account balances, or any other important financial information.</p>
 
