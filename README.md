@@ -8,7 +8,7 @@
  <h2>project Idea and Proposal</h2>
  <a href="https://docs.google.com/document/d/1SHr84sZDCYX8ukC5oxG8gsNXM0fObPc1V4KU9qZtBS0/edit?usp=sharing">Idea & Proposal</a>
  <h2>Project Design & Diagram</h2>
- <a href="https://docs.google.com/document/d/1SHr84sZDCYX8ukC5oxG8gsNXM0fObPc1V4KU9qZtBS0/edit?usp=sharing">Design</a>
+ <a href="https://docs.google.com/document/d/1JuigZ5JX_0XAp217VIQirpbRFhrgb2NJ/edit?usp=share_link&ouid=115479952368362752908&rtpof=true&sd=true">Design</a>
  </br>
  <a href="https://drive.google.com/file/d/1PVrBvYp1MSmkw11RnukLRKs8OMn6_4s8/view?usp=share_link">Diagram</a>
 <h2>Scurm Sprints:</h2>
