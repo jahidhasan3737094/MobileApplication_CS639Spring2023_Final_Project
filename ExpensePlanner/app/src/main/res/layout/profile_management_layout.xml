@@ -1,0 +1,64 @@
+<!-- profile_management_layout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Profile Picture -->
+    <ImageView
+        android:id="@+id/imageViewProfilePicture"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal" />
+
+    <!-- Upload Profile Picture Button -->
+    <Button
+        android:id="@+id/buttonUploadPicture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Picture" />
+
+    <!-- Name -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:hint="Name" />
+
+    <!-- Email -->
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <!-- Password -->
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <!-- Profile Bio -->
+    <EditText
+        android:id="@+id/editTextProfileBio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:hint="Profile Bio" />
+
+    <!-- Save Changes Button -->
+    <Button
+        android:id="@+id/buttonSaveChanges"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Changes" />
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<!-- registration_layout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <!-- Add any other necessary input fields -->
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/buttonRegisterFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register with Facebook" />
+
+    <Button
+        android:id="@+id/buttonRegisterGmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register with Gmail" />
+
+
+</LinearLayout>
