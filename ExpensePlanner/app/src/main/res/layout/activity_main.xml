@@ -1,49 +1,52 @@
 <!-- registration_layout.xml -->
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/editTextName"
+    tools:context=".MainActivity"
+    android:background="@color/cardview_light_background">
+
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Name" />
-
-    <EditText
-        android:id="@+id/editTextEmail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="12dp"
-        android:hint="Email" />
-
-    <EditText
-        android:id="@+id/editTextPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="12dp"
-        android:hint="Password"
-        android:inputType="textPassword" />
-
-    <!-- Add any other necessary input fields -->
-
-    <Button
-        android:id="@+id/buttonRegister"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Register" />
-
-    <Button
-        android:id="@+id/buttonRegisterFacebook"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Register with Facebook" />
-
-    <Button
-        android:id="@+id/buttonRegisterGmail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Register with Gmail" />
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:padding="15dp"
+        android:background="@color/cardview_light_background">
 
 
-</LinearLayout>
+
+        <TextView
+            android:id="@+id/textview_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="30dp"
+            android:text="@string/welcome_to_expense_planner"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            />
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:layout_below="@id/textview_head"/>
+        <Button
+            android:id="@+id/button_registration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:textAlignment="center"
+            android:layout_below="@id/button_login"/>
+
+    </RelativeLayout>
+
+</ScrollView>

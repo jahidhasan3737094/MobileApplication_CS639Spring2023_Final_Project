@@ -8,9 +8,35 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ExpensePlanner"
         tools:targetApi="31">
+        <activity
+            android:name=".UserGuideActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddSavingInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CheckUpcomingExpensesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlanExpenseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".UserProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Top TextView -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Expense Planner"
+        android:textSize="24sp" />
+
+    <!-- Button container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Add Saving Info button -->
+        <Button
+            android:id="@+id/add_saving_info_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Saving Info" />
+
+        <!-- Plan Expense button -->
+        <Button
+            android:id="@+id/plan_expense_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plan Expense" />
+
+        <!-- Check Upcoming Expense button -->
+        <Button
+            android:id="@+id/check_upcoming_expense_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check Upcoming Expense" />
+
+        <!-- Profile Details button -->
+        <Button
+            android:id="@+id/profile_details_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile Details" />
+
+        <Button
+            android:id="@+id/User_guide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/userguide" />
+    </LinearLayout>
+
+</LinearLayout>

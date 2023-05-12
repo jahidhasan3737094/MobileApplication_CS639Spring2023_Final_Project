@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "497909472681",
+    "project_id": "expenseplanner-c8a86",
+    "storage_bucket": "expenseplanner-c8a86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497909472681:android:ed8bdbf069318cea1638b8",
+        "android_client_info": {
+          "package_name": "com.example.expenseplanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497909472681-gldmr8fn79a5bf0c4ekfd36lr19jnnmi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJuM9kcg3qUkMavoa72NOsHH36hsHWB44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497909472681-gldmr8fn79a5bf0c4ekfd36lr19jnnmi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

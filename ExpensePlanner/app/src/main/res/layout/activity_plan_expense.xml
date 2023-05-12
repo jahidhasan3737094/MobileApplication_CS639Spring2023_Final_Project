@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/Expense_Plan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/expense_planning"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total_available_balance" />
+
+    <TextView
+        android:id="@+id/total_available_balance_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total_avilable_bal" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:text="@string/food_ex" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/food_expense"
+        android:padding="16dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/enter_food_expense_here" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:text="@string/travelling_expense" />
+
+    <EditText
+        android:id="@+id/travel_expense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/enter_travelling_expense_here" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/payment" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/payment_expense"
+        android:padding="16dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/enter_payment_amount_here" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/entertainment" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/entertainment_ex"
+        android:padding="16dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/enter_entertainment_expense_here" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/generate_plan" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/food"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/food_expense_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/expense_v"
+            android:textStyle="bold"
+            android:layout_marginStart="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/travelling_expense"
+            android:textStyle="bold"
+            android:layout_marginStart="32dp"/>
+
+        <TextView
+            android:id="@+id/travel_expense_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/travel_v"
+            android:textStyle="bold"
+            android:layout_marginStart="16dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/payment"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/payment_expense_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/payemt_v"
+            android:textStyle="bold"
+            android:layout_marginStart="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/entertainment"
+            android:textStyle="bold"
+            android:layout_marginStart="32dp"/>
+
+
+        <TextView
+            android:id="@+id/entertainment_expense_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/entertainment_v"
+            android:textStyle="bold"
+            android:layout_marginStart="16dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
