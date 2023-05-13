@@ -10,6 +10,8 @@
 
  <h2>project Idea and Proposal</h2>
  <a href="https://docs.google.com/document/d/1SHr84sZDCYX8ukC5oxG8gsNXM0fObPc1V4KU9qZtBS0/edit?usp=sharing">Idea & Proposal</a>
+ <h2>Description of the users</h2>
+<p>Tom - A 22-year-old college student who is living away from home for the first time. He wants to keep track of his expenses to manage his limited budget effectively. He likes to use his smartphone for everything and prefers a mobile application that is quick and easy to use.</p>
  <h2>Project Design & Diagram</h2>
  <a href="https://docs.google.com/document/d/1JuigZ5JX_0XAp217VIQirpbRFhrgb2NJ/edit?usp=share_link&ouid=115479952368362752908&rtpof=true&sd=true">Design</a>
  </br>
