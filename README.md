@@ -29,7 +29,7 @@
  <p>5.Show users Profile Info and allow users to update Information.</p>
  </br>
  <h2>screenshots and link to video on YouTube</h2>
- <a href="https://docs.google.com/document/d/1SHr84sZDCYX8ukC5oxG8gsNXM0fObPc1V4KU9qZtBS0/edit?usp=sharing">ScreenShots</a>
+ <a href="https://drive.google.com/drive/folders/1wEaAU5jKEsvckWH3UfEfgByVd1bhV1tK?usp=share_link">ScreenShots</a>
  <a href="https://docs.google.com/document/d/1SHr84sZDCYX8ukC5oxG8gsNXM0fObPc1V4KU9qZtBS0/edit?usp=sharing">Vedio link</a>
  
  
