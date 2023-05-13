@@ -7,13 +7,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class DashboardActivity extends AppCompatActivity {
     private Button addSavingInfoButton;
     private Button planExpenseButton;
     private Button checkUpcomingExpenseButton;
     private Button profileDetailsButton;
     private Button userGuide;
-
+    private Button logoutBtn;
+    private FirebaseAuth authProfile;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +28,7 @@ public class DashboardActivity extends AppCompatActivity {
         checkUpcomingExpenseButton = findViewById(R.id.check_upcoming_expense_button);
         profileDetailsButton = findViewById(R.id.profile_details_button);
         userGuide=findViewById(R.id.User_guide);
+
 
         addSavingInfoButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -62,6 +66,19 @@ public class DashboardActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(DashboardActivity.this, UserGuideActivity.class);
                 startActivity(intent);
+            }
+        });
+
+        // Find the logout button and set its click listener
+        logoutBtn = findViewById(R.id.logout_dashboard);
+        logoutBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                authProfile = FirebaseAuth.getInstance();
+                authProfile.signOut();
+                Intent intent = new Intent(DashboardActivity.this, LoginActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
     }

@@ -93,7 +93,7 @@ public class LoginActivity extends AppCompatActivity {
                     Toast.makeText(LoginActivity.this, "Login successful", Toast.LENGTH_LONG).show();
                     //open profile
 
-                    //open user Profile
+                    //open user Dashboard
                     Intent intent=new Intent(LoginActivity.this,DashboardActivity.class);
 
                     //Prevent user returning from profile to register activity after registration
