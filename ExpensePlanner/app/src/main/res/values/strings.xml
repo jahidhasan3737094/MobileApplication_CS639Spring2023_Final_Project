@@ -73,5 +73,6 @@
     <string name="userguide">User Guide</string>
     <string name="under_maintenace">Under Maintenace .....</string>
     <string name="logout">Logout</string>
+    <string name="login_page">Login Page</string>
 
 </resources>
