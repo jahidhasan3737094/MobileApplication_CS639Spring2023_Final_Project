@@ -30,7 +30,7 @@
  </br>
  <h2>screenshots and link to video on YouTube</h2>
  <a href="https://drive.google.com/drive/folders/1wEaAU5jKEsvckWH3UfEfgByVd1bhV1tK?usp=share_link">ScreenShots</a>
- <a href="https://docs.google.com/document/d/1SHr84sZDCYX8ukC5oxG8gsNXM0fObPc1V4KU9qZtBS0/edit?usp=sharing">Vedio link</a>
+ <a href="https://youtu.be/q6lrlgGkkGA">Vedio link</a>
  
  
  <h2>Status of the development of the App</h2>
