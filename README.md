@@ -21,6 +21,9 @@
  <a href="https://docs.google.com/document/d/1SHr84sZDCYX8ukC5oxG8gsNXM0fObPc1V4KU9qZtBS0/edit?usp=sharing">ScreenShots</a>
  <a href="https://docs.google.com/document/d/1SHr84sZDCYX8ukC5oxG8gsNXM0fObPc1V4KU9qZtBS0/edit?usp=sharing">Vedio link</a>
  
+ 
+ <h2>Status of the development of the App</h2>
+ 
 <h2>Scurm Sprints:</h2>
 <ul>
   <li><strong>Sprint 1 (4/15-4/21):</strong></li>
