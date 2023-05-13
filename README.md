@@ -4,7 +4,7 @@
 <h2 align="center">Apps Name: ExpensePlanner<h2>
  
  <h2>Presentation Slides</h2>
-<a href="https://docs.google.com/document/d/1SHr84sZDCYX8ukC5oxG8gsNXM0fObPc1V4KU9qZtBS0/edit?usp=sharing">Presentation</a>
+<a href="https://drive.google.com/drive/folders/1V21LYbMbfASPP2qnsnfAnotZXJSYH5XC?usp=share_link">Presentation</a>
 <h2>Description:</h2>
 <p>The app will take earnings or savings as input and based on  monthly income or savings there will be a feature that allows users to set budgets for different categories, such as food, transportation, and entertainment. The app could provide suggestions based on the user's spending history, and allow them to set goals for saving money and Send reminders to users about upcoming bills, account balances, or any other important financial information.</p>
 
