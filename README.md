@@ -17,6 +17,14 @@
  </br>
  <a href="https://drive.google.com/file/d/1PVrBvYp1MSmkw11RnukLRKs8OMn6_4s8/view?usp=share_link">Diagram</a>
  
+ <h2>Main features of the app</h2>
+ <p>1.Login and Registration</p>
+ </br>
+ <p>2.User Bank and Balance Info collect and save information in the firebase Database</p>
+ </br>
+ <p>3.Planning User Expense in Four specific field such as : FOOD , Travelling Expense, Payments, Entertainments</p>
+ </br>
+ <p>4.Show users upcoming payments due data and amount so that user can track expense.</p>
  <h2>screenshots and link to video on YouTube</h2>
  <a href="https://docs.google.com/document/d/1SHr84sZDCYX8ukC5oxG8gsNXM0fObPc1V4KU9qZtBS0/edit?usp=sharing">ScreenShots</a>
  <a href="https://docs.google.com/document/d/1SHr84sZDCYX8ukC5oxG8gsNXM0fObPc1V4KU9qZtBS0/edit?usp=sharing">Vedio link</a>
