@@ -25,6 +25,9 @@
  <p>3.Planning User Expense in Four specific field such as : FOOD , Travelling Expense, Payments, Entertainments</p>
  </br>
  <p>4.Show users upcoming payments due data and amount so that user can track expense.</p>
+ </br>
+ <p>5.Show users Profile Info and allow users to update Information.</p>
+ </br>
  <h2>screenshots and link to video on YouTube</h2>
  <a href="https://docs.google.com/document/d/1SHr84sZDCYX8ukC5oxG8gsNXM0fObPc1V4KU9qZtBS0/edit?usp=sharing">ScreenShots</a>
  <a href="https://docs.google.com/document/d/1SHr84sZDCYX8ukC5oxG8gsNXM0fObPc1V4KU9qZtBS0/edit?usp=sharing">Vedio link</a>
